@@ -109,7 +109,7 @@ a {
     height:100px;
     width:100px;
     border: 3px solid #3882F6;
-    border-radius:10%;
+    border-radius:25px;
 }
 
 .quote {
@@ -132,3 +132,37 @@ a {
 .quote h3 {
     margin-left:30%;
 }
+
+.call-to-action {
+    width:100%;
+    background-color:#F9FAF8;
+    display:flex;
+    justify-content: center;
+    padding:100px;
+    color:#F9FAF8;
+}
+
+.call-to-action-container {
+    width:70%;
+    background-color: #3882F6;
+    border:1px solid #3882F6;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px;
+    border-radius:25px;
+}
+
+.call-to-action h2 {
+    padding:15px 0px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius:10px;
+    padding:10px 20px;
+    color:#F9FAF8;
+}
+
+
